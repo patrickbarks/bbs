@@ -3,7 +3,6 @@ output: github_document
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-[![Build Status](https://travis-ci.org/oharar/rBBS.svg?branch=master)](https://travis-ci.org/oharar/rBBS)
 
 ```{r, echo = FALSE}
 knitr::opts_chunk$set(
@@ -19,6 +18,7 @@ library("rBBS")
 ```
 
 # rBBS
+[![Travis build status](https://travis-ci.org/patrickbarks/bbs.svg?branch=master)](https://travis-ci.org/patrickbarks/bbs) [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/patrickbarks/bbs?branch=master&svg=true)](https://ci.appveyor.com/project/patrickbarks/bbs) [![Coverage status](https://codecov.io/gh/patrickbarks/bbs/branch/master/graph/badge.svg)](https://codecov.io/github/patrickbarks/bbs?branch=master)
 
 An R package to work with data from the [North American Breeding Bird Survey (BBS)](https://www.pwrc.usgs.gov/bbs/).
 

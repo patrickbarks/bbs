@@ -15,13 +15,15 @@ BugReports: https://github.com/oharar/rBBS/issues
 Depends: R (>= 2.10)
 Imports: utils, readr, tibble, curl
 Encoding: UTF-8
-Suggests: testthat,
+Suggests: 
+    testthat,
     knitr,
     rmarkdown,
     dplyr,
     ggplot2,
     iNEXT,
-    lme4
+    lme4,
+    covr
 License: GPL-3 | file LICENSE
 LazyData: TRUE
 RoxygenNote: 6.1.1
