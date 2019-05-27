@@ -2,6 +2,8 @@ context("bbs_download")
 
 test_that("bbs_download works correctly", {
   
+  skip_if_offline()
+  
   temp <- tempdir()
   
   temp_10 <- paste(temp, "States", sep = "/")
